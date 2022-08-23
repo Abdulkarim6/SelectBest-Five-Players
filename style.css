@@ -1,0 +1,11 @@
+.banner{
+    background-image:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.445)), url(images/bg-messi.jpeg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title-style{
+    padding-top: 150px;
+    font-size: 50px;
+}
