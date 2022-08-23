@@ -16,6 +16,137 @@
         <h3 class="text-white display-1 text-center fst-italic fw-semibold title-style ">Select your team players</h3>
     </header>
     <!-- header section start-->
+    <main>
+        <section class="section-container">
+            <div class="row">
+                <div class="col-9">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/messi.jpg" class="card-img-top player-img" alt="">
+                                <div class="card-body">
+                                    <h3 id="player-name-messi" class="text-center">Lionel Messi</h3>
+                                    <button id="selectBtn-1" class="selectButton btn btn-primary btn-lg w-100 mt-3 "
+                                        type="submit">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/neymar.jpg" class="card-img-top player-img" alt="">
+                                <div class="card-body">
+                                    <h3 id="player-name-neymar" class="text-center">Neymar Jr</h3>
+                                    <button id="selectBtn-2" class="selectButton btn btn-primary btn-lg w-100 mt-3"
+                                        type="submit">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/mbappe.jpg" class="card-img-top player-img" alt="">
+                                <div class="card-body">
+                                    <h3 id="player-name-mbappe" class="text-center">Kylian Mbappé</h3>
+                                    <button id="selectBtn-3" class="selectButton btn btn-primary btn-lg w-100 mt-3"
+                                        type="submit">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/Mohamed Salah.webp" class="card-img-top player-img" alt="">
+                                <div class="card-body">
+                                    <h3 id="player-name-salah" class="text-center">Mohamed Salah</h3>
+                                    <button id="selectBtn-4" class="selectButton btn btn-primary btn-lg w-100 mt-3"
+                                        type="submit">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/ozil.jpg" class="card-img-top player-img" alt="">
+                                <div class="card-body">
+                                    <h3 id="player-name-ozil" class="text-center">Mesut ozil</h3>
+                                    <button id="selectBtn-5" class="selectButton btn btn-primary btn-lg w-100 mt-3"
+                                        type="submit">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/Riyad Mahrez.jpg" class="card-img-top player-img" alt="">
+                                <div class="card-body">
+                                    <h3 id="player-name-riyad" class="text-center">Riyad Mahrez</h3>
+                                    <button id="selectBtn-6" class="selectButton btn btn-primary btn-lg w-100 mt-3"
+                                        type="submit">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/Sadio Mane.jpeg" class="card-img-top player-img" alt="">
+                                <div class="card-body">
+                                    <h3 id="player-name-sadio" class="text-center">Sadio Mane</h3>
+                                    <button id="selectBtn-7" class="selectButton btn btn-primary btn-lg w-100 mt-3"
+                                        type="submit">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/Yaya Toure.jpg" class="card-img-top player-img" alt="">
+                                <div class="card-body">
+                                    <h3 id="player-name-yaya" class="text-center">Yaya Toure</h3>
+                                    <button id="selectBtn-8" class="selectButton btn btn-primary btn-lg w-100 mt-3"
+                                        type="submit">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="images/Erling Haaland.jpg" class="card-img-top player-img" alt="">
+                                <div class="card-body">
+                                    <h3 id="player-name-haaland" class="text-center">Erling Haaland</h3>
+                                    <button id="selectBtn-9" class="selectButton btn btn-primary btn-lg w-100 mt-3"
+                                        type="submit">Select</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="row row-cols-1">
+                        <!-- bg-dark text-white -->
+                        <div class="col  set-height rounded">
+                            <h3 class="text-center fst-italic fw-semibold ">Please!Selected-V</h3>
+                            <ol id="ol-list">
+
+                                <!-- click select button before added list by js  -->
+
+                            </ol>
+                        </div>
+                        <div class="col bg-secondary rounded">
+                            <h3 class="text-center text-white fw-semibold">Budget</h3>
+                            <p class="fs-5 text-white fw-semibold">Per Player <input id="per-player-budget" type="text"
+                                    class=""> </p>
+                            <button id="calculate-btn" class="btn btn-primary btn-lg w-100 mt-3 mb-3"
+                                type="submit">Calculate</button>
+                            <p class="fs-5 text-white fw-semibold">Player Expenses <span>$<span
+                                        id="total-player-budget">000</span></span></p>
+                            <p class="fs-5 text-white fw-semibold">Manager <input type="text" id="manager-budget"></p>
+                            <p class="fs-5 text-white fw-semibold">Coach <input type="text" id="coach-budget"></p>
+                            <button id="calculate-total-btn" class="btn btn-primary btn-lg w-100 mt-3 mb-3"
+                                type="submit">Calculate Total</button>
+                            <p class="fs-5 text-white fw-semibold">Total <span>$<span id="total-cost">000</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main section start -->
+
+    <!-- main section start -->
     <!-- js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
