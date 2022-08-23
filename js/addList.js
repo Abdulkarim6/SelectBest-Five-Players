@@ -1,5 +1,5 @@
 
-// step : # 0
+// step : # 1
 document.getElementById("selectBtn-1").addEventListener("click", function () {
     console.log("select button")
     getSelectButttonValueById("player-name-salah");
