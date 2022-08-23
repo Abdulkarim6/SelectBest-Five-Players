@@ -1,7 +1,6 @@
 
 // step : # 1
 document.getElementById("selectBtn-1").addEventListener("click", function () {
-    console.log("select button")
     getSelectButttonValueById("player-name-salah");
     document.querySelector('#selectBtn-1').disabled = true;
     setListStyleById();
@@ -34,7 +33,7 @@ document.getElementById("selectBtn-6").addEventListener("click", function () {
 })
 document.getElementById("selectBtn-7").addEventListener("click", function () {
     getSelectButttonValueById("player-name-yaya");
-    document.querySelector('#selectBtn-6').disabled = true;
+    document.querySelector('#selectBtn-7').disabled = true;
     setListStyleById()
 })
 document.getElementById("selectBtn-8").addEventListener("click", function () {

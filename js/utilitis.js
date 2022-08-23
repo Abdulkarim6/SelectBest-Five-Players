@@ -32,3 +32,11 @@ function getInputFeildValueById(feildEvent) {
     }
     return inputFeildValue;
 }
+
+/* Function for calculate-btn and calculate-total-btn -2 : #1, #2 */
+function setListStyleById() {
+    const listLengthElement = document.querySelectorAll("#ol-list li");
+    for (const li of listLengthElement) {
+         li.style.fontWeight = 600;
+    }
+}
